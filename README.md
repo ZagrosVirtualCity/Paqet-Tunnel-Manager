@@ -105,6 +105,62 @@ bash <(curl -fsSL https://raw.githubusercontent.com/behzadea12/Paqet-Tunnel-Mana
 
 ---
 
+**Update** (You can do this after setting up the tunnel — or before it, it doesn’t matter. If you already installed the tunnel with this core, you don’t need to reinstall the core again!):
+
+**Installing the customized & optimized core:**
+
+To install via URL:
+
+Copy the link according to your server’s architecture:
+
+For linux-amd64:
+
+```bash
+
+https://github.com/behzadea12/Paqet-Tunnel-Manager/releases/download/PaqetOptimized/paqet-linux-amd64-v2.2.0-optimize.tar.gz
+
+```
+
+For linux-arm64:
+
+```bash
+
+https://github.com/behzadea12/Paqet-Tunnel-Manager/releases/download/PaqetOptimized/paqet_linux_arm64-v2.2.0-optimize.tar.gz
+
+```
+
+Steps:
+
+1. Enter/run the script:
+
+```bash
+
+bash <(curl -fsSL https://raw.githubusercontent.com/behzadea12/Paqet-Tunnel-Manager/main/paqet-manager.sh)
+
+```
+
+2. Enter option **0** → (Install Paqet Binary / Manager)
+
+3. Enter option **3** → (Download from custom URL)
+
+4. Paste the link and press Enter — wait for the download to finish (duration depends on your server speed).
+
+5. Go back to the main menu of the script → restart your service.  
+
+   - If you have many services and want to restart all of them at once, go to option **5** and choose sub-option **10** (auto-restart all services).
+
+---
+
+**Important notice:**  
+
+Anyone who tries to sell this version of my core/binary or my script is basically publicly announcing that they are using a **his mother bitch!**.  
+
+Please don’t misuse it. Be human.
+
+**Note:** The core/binary must be the **same version** on both the foreign server and the Iranian server.
+
+---
+
 ## Advanced Configuration (KCP Modes)
 
 In **Step 8 (Kharej server)** and **Step 9 (Iran server)**, you can choose different configuration modes.
