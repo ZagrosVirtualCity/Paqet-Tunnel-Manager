@@ -30,7 +30,6 @@ https://t.me/BehzadEa12
 * [تصائیر اسکریپت](#-تصاویر-اسکریپت)
 * [لایسنس](#لایسنس)
 * [قدردانی](#قدردانی)
-
 ---
 
 ## شروع سریع
@@ -105,6 +104,43 @@ bash <(curl -fsSL https://raw.githubusercontent.com/behzadea12/Paqet-Tunnel-Mana
     `1` tcp — `2` udp — `3` tcp/udp
 
 ---
+
+
+آپدیت (میتونید بعد تانل اینکار رو انجام بدید - میتونید قبلش انجام بدید تفاوتی وجود نداره - اگر قبل تانل زدید دیگه نیاز به نصب هسته مجدد ندارید!):
+
+نصب هسته کاستومایز شده و بهینه شده:
+
+جهت نصب از طریق URL:
+
+لینک معماری سرورتون رو کپی کنید:
+
+linux-amd64:
+```bash
+https://github.com/behzadea12/Paqet-Tunnel-Manager/releases/download/PaqetOptimized/paqet-linux-amd64-v2.2.0-optimize.tar.gz
+```
+linux_arm64:
+```bash
+https://github.com/behzadea12/Paqet-Tunnel-Manager/releases/download/PaqetOptimized/paqet_linux_arm64-v2.2.0-optimize.tar.gz
+```
+1- وارد اسکریپت بشید
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/behzadea12/Paqet-Tunnel-Manager/main/paqet-manager.sh)
+
+```
+2- گزینه 0 رو وارد کنید (Install Paqet Binary / Manager)
+
+3- گزینه 3 رو وارد کنید (Download from custom URL)
+
+4- لینک رو پیست کنید و اینتر بزنید و منتظر بمونید تا دانلود بشه بستگی به سرورتون داره مدت زمانش.
+
+5-برید به منوی اصلی اسکریپت - سرویستون رو ریستارت کنید. - اگر تعداد زیادی سرویس دارید از بخش 5 میتونید گزینه 10 رو بزنید که همشون به صورت خودکار ریستارت بشن
+.
+من معذرت میخوام از همه دوستانی که این متن رو میخونید چون درست نیست. - هرکس که این نسخه از هسته و یا اسکریپت من رو برای فروش بگذارد بیانگر مادر اشتراکی خود هست - سو استفاده نکنید - انسان باشید.
+
+نکته: هسته هم در سرور خارج هم در ایران باید یکی باشه.
+
+---
+
 
 ## تنظیمات پیشرفته (حالت‌های KCP)
 
